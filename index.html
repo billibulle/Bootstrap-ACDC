@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d9276e1355.js" crossorigin="anonymous"></script>
+    <title>ACDC</title>
+</head>
+
+<body>
+    <main class="container ">
+        <header>
+            <!-- ---------------------------------------------------navbar----------------------------------------- -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                        <!-- logo -->
+                    <a class="navbar-brand fs-1" href="#">AC<i class="fa-solid fa-bolt-lightning"></i>DC</a>
+                        <!-- bouton -->
+                    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <!-- SideBar -->
+                    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <!-- Sidebar Header -->
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title fs-1" id="offcanvasDarkNavbarLabel">AC<i
+                                class="fa-solid fa-bolt-lightning "></i>DC</h5>
+                            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <!-- Sidebar body -->
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-danger fs-3 mx-1" aria-current="page" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-danger fs-3 mx-1" href="#membres">Membres</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-danger fs-3 mx-1" href="#disco">Discographie</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-danger fs-3 mx-1" href="#concerts">Agenda des concerts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-danger fs-3 mx-1" href="#formulaire">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ---------------------------------------Carousel------------------------------------------------- -->
+        <section id="carousel">
+            <div id="carouselACDC" class="carousel slide pt-5" data-bs-ride="carousel">
+                <div class="carousel-inner mb-2 mt-5">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid w-auto m-auto rounded" src="img/ac-dc-1.png" alt="ac-dc-1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid w-auto m-auto rounded" src="img/ac-dc-2.png" alt="ac-dc-2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid w-auto m-auto rounded" src="img/ac-dc-3.png" alt="ac-dc-3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselACDC" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselACDC" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!--------------------------------------------MEMBRES--------------------------------------------------- -->
+
+        <section id="membres">
+            <h3 class="text-uppercase text-center text-white pt-5 pb-3">AC<i class="fa-solid fa-bolt-lightning"></i>DC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Les membres du groupe</h3>
+            <div class="row row-cols-1 row-cols-md-5 g-3 ">
+                <div class="card col bg-transparent border-0">
+                    <img src="img/brian-johnson.png" class="card-img-top img-thumbnail rounded-1" alt="brian-johnson">
+                    <div class="card-body">
+                        <p class="card-text text-white text-center">Brian Johnson (chant)</p>
+                    </div>
+                </div>
+                <div class="card col bg-transparent border-0">
+                    <img src="img/angus-young.png" class="card-img-top img-thumbnail rounded-1 m-auto" alt="A.Young">
+                    <div class="card-body">
+                        <p class="card-text text-white text-center">Angus Young (Guitare Solo)</p>
+                    </div>
+                </div>
+                <div class="card col bg-transparent border-0">
+                    <img src="img/steve-young.png" class="card-img-top img-thumbnail rounded-1 m-auto" alt="S.Young">
+                    <div class="card-body">
+                        <p class="card-text text-white text-center">Steve Young (Guitare)</p>
+                    </div>
+                </div>
+                <div class="card col bg-transparent border-0">
+                    <img src="img/cliff-williams.png" class="card-img-top img-thumbnail rounded-1 m-auto" alt="williams">
+                    <div class="card-body">
+                        <p class="card-text text-white text-center">Cliff Williams (Basse)</p>
+                    </div>
+                </div>
+                <div class="card col bg-transparent border-0">
+                    <img src="img/chris-slade.png" class="card-img-top img-thumbnail rounded-1 m-auto" alt="slade">
+                    <div class="card-body">
+                        <p class="card-text text-white text-center">Chris Slade (Batterie)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------DISCOGRAPHIE----------------------------------------------------- -->
+        <section class="container" id="disco">
+            <h3 class="text-uppercase text-center text-white pt-5 pb-3">AC<i class="fa-solid fa-bolt-lightning"></i>DC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                La Discographie</h3>
+            <div class="row justify-content-around">
+                <article class="col-10 col-md-3 m-1 p-2 rounded bg-white text-center">
+                    <img class="img-fluid" src="img/Discographie/High-voltage-1975.jpg">
+                    <h4 class="text-danger">1975 : High Voltage</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 m-1 p-2 bg-white text-center rounded">
+                    <img class="img-fluid" src="img/Discographie/Highway-to-hell-1979.jpg">
+                    <h4 class="text-danger text-center">1979 : Highway to hell</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 m-1 p-2 bg-white text-center rounded">
+                    <img class="img-fluid" src="img/Discographie/Back-in-black-1980.jpg">
+                    <h4 class="text-danger text-center">1980 : Back in Black</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 p-2 m-1 bg-white rounded text-center">
+                    <img class="img-fluid" src="img/Discographie/Who-made-who-1986.jpg">
+                    <h4 class="text-danger text-center">1986 : Who made who</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 p-2 m-1 bg-white rounded text-center">
+                    <img class="img-fluid" src="img/Discographie/Blow-up-your-video-1988.jpg">
+                    <h4 class="text-danger text-center">1988 : Blow up your Video</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 p-2 m-1 bg-white rounded text-center">
+                    <img class="img-fluid" src="img/Discographie/Razor-edge-1990.jpg">
+                    <h4 class="text-danger text-center">1990 : Razor's Edge</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 p-2 m-1 bg-white rounded text-center">
+                    <img class="img-fluid" src="img/Discographie/Ballbreaker-1995.jpg">
+                    <h4 class="text-danger text-center">1995 : BallBreaker</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 p-2 m-1 bg-white rounded text-center">
+                    <img class="img-fluid" src="img/Discographie/Stiff-upper-lip-2000.jpg">
+                    <h4 class="text-danger text-center">2000 : Stiff Uper Up</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        dolorum accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+                <article class="col-10 col-md-3 p-2 m-1 bg-white rounded text-center">
+                    <img class="img-fluid" src="img/Discographie/Black-ice-2008.jpg">
+                    <h4 class="text-danger text-center">2008 : Black Ice</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, voluptatibus aliquid
+                        accusantium quod animi.</p>
+                    <button class="btn btn-danger float-end" type="submit">Lire plus...</button>
+                </article>
+            </div>
+        </section>
+
+
+
+        <!-- -----------------------------CONCERTS---------------------------------------------- -->
+        <section id="concerts">
+            <h3 class="text-uppercase text-center text-white pt-5 pb-3">AC<i class="fa-solid fa-bolt-lightning"></i>DC
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Les dates des concerts</h3>
+            <table class="table table-dark table-hover text-danger">
+                <thead>
+                    <tr>
+                        <th scope="col" class="text-danger">Date</th>
+                        <th scope="col" class="text-danger">Heure</th>
+                        <th scope="col" class="text-danger">Salle</th>
+                        <th scope="col" class="text-danger">Ville</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td>08/06/2000</td>
+                        <td>21:00</td>
+                        <td>Stade de France</td>
+                        <td>Paris</td>
+                    </tr>
+                    <tr>
+                        <td>12/05/2002</td>
+                        <td>21:00</td>
+                        <td>Esplanade</td>
+                        <td>Singapour</td>
+                    </tr>
+                    <tr>
+                        <td>18/09/2009</td>
+                        <td>20:30</td>
+                        <td>Opéra</td>
+                        <td>Sydney</td>
+                    </tr>
+                    <tr>
+                        <td>12/09/2021</td>
+                        <td>20:30</td>
+                        <td>Massey Hall</td>
+                        <td>Toronto</td>
+                    </tr>
+                    <tr>
+                        <td>12/09/2022</td>
+                        <td>20:30</td>
+                        <td>Madison Square Garden</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>08/06/2023</td>
+                        <td>21:30</td>
+                        <td>Stade de France</td>
+                        <td>Paris</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- -----------------------------------------FORMULAIRE--------------------------------------------- -->
+
+        <section id="formulaire">
+            <h3 class="text-uppercase text-center text-white pt-5 pb-3">AC<i class="fa-solid fa-bolt-lightning"></i>DC
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</h3>
+            <form class="row justify-content-center g-3 ">
+                <div class="col-3 ">
+                    <label for="name" class="form-label"></label>
+                    <input type="text" class="form-control " id="name" required placeholder="Nom" 
+                    pattern="^[A-Za-zÀ-ÿ]+[ \-]*[A-Za-zÀ-ÿ]*">
+                </div>
+                <div class="col-3">
+                    <label for="prenom" class="form-label"></label>
+                    <input type="text" class="form-control" id="prenom" required placeholder="Prenom"
+                    pattern="^[A-Za-zÀ-ÿ]+[ \-]*[A-Za-zÀ-ÿ]*">
+                </div>
+                <div class="col-6 mx-2">
+                    <label for="email" class="form-label"></label>
+                    <input type="email" class="form-control" id="Email" required placeholder="Email">
+                </div>
+                <div class="col-6">
+                    <label for="message" class="form-label"></label>
+                    <input type="text" class="form-control" id="message" required placeholder="Votre message"
+                        minlength="50">
+                    </textarea>
+                </div>
+                <div class="col-12 text-center ">
+                    <button class="btn btn-danger mx-2" type="submit">Envoyer</button>
+                    <button class="btn btn-danger" type="reset">Annuler</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- --------------------------------------------CONTACT----------------------------------------- -->
+    <footer class="container text-center text-white pt-3 pb-1">
+        2024 - Océ - <abbr>AC<i class="fa-solid fa-bolt-lightning"></i>DC</abbr>
+        <address>
+            <b>Pika Corp. </b> <br>
+            Bourg Palette <br>
+            Kanto <br>
+            <abbr title="Téléphone">Tel:</abbr> +33 6 82 34 09 92
+        </address>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

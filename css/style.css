@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'HARDRock';
+    src: url(../img/HARD_ROCK.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'rocknroll';
+    src: url(../img/rocknroll_typo_crazy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'TheDark';
+    src: url(../img/TheDark.ttf) format('truetype');
+}
+
+body{
+    background: linear-gradient(135deg, black 0%, black 17%,#E9290F 17%,#E9290F 40%, black 40%, black 85%, #E9290F 85%, #E9290F 100%);
+}
+
+i{
+    color: rgb(172, 2, 2);
+}
+/* -------corps------------ */
+
+header {
+    font-family: 'TheDark';
+}
+/* .navbar{    J'aime pas votre modèle avec la barre qui s'arrete au milieu
+    width: 70%;
+} */
+main h3{
+    font-family: 'TheDark';
+}
+
+/* ----------membres-------- */
+.card-img-top{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+/* ----------discographie-------- */
+.btn{
+    font-family: 'rocknroll';
+    font-size: 1.6em;
+}
+
+#disco img{
+    height: 275px;
+    width: auto;
+} 
+#disco article{
+    box-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+
+/* ----------formulaire-------- */
+
+ #formulaire ::placeholder{
+    font-family: 'TheDark';
+    color: red;
+ }
+
+/* ----------telephone-------- */
+
+@media (max-width: 768px) {
+.card-img-top{
+        object-fit: cover;
+        width: 250px;
+        height: auto;
+    }
+}
